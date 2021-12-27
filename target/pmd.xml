@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="5.1.2" timestamp="2021-12-25T14:52:09.713">
+<file name="/home/ec2-user/DevOpsClassCodes/src/main/java/com/demo/tutorial/addressbook/ContactForm.java">
+<violation beginline="89" endline="91" begincolumn="11" endcolumn="9" rule="EmptyCatchBlock" ruleset="Empty Code" package="com.demo.tutorial.addressbook" class="ContactForm" method="save" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+</file>
+<file name="/home/ec2-user/DevOpsClassCodes/src/main/java/com/demo/tutorial/addressbook/backend/ContactService.java">
+<violation beginline="62" endline="62" begincolumn="41" endcolumn="86" rule="UselessParentheses" ruleset="Unnecessary" package="com.demo.tutorial.addressbook.backend" class="ContactService" method="findAll" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/home/ec2-user/DevOpsClassCodes/src/main/java/com/demo/utilities/PropertyHelper.java">
+<violation beginline="57" endline="58" begincolumn="10" endcolumn="10" rule="EmptyFinallyBlock" ruleset="Empty Code" package="com.demo.utilities" class="PropertyHelper" method="getProperty" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/empty.html#EmptyFinallyBlock" priority="3">
+Avoid empty finally blocks
+</violation>
+<violation beginline="82" endline="83" begincolumn="10" endcolumn="10" rule="EmptyFinallyBlock" ruleset="Empty Code" package="com.demo.utilities" class="PropertyHelper" method="getProperty" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/empty.html#EmptyFinallyBlock" priority="3">
+Avoid empty finally blocks
+</violation>
+</file>
+<file name="/home/ec2-user/DevOpsClassCodes/src/main/java/com/demo/utilities/PropertyLoader.java">
+<violation beginline="39" endline="39" begincolumn="37" endcolumn="39" rule="UnusedPrivateField" ruleset="Unused Code" package="com.demo.utilities" class="PropertyLoader" variable="LOG" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'LOG'.
+</violation>
+<violation beginline="96" endline="96" begincolumn="25" endcolumn="51" rule="EmptyCatchBlock" ruleset="Empty Code" package="com.demo.utilities" class="PropertyLoader" method="loadProperties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/empty.html#EmptyCatchBlock" priority="3">
+Avoid empty catch blocks
+</violation>
+<violation beginline="98" endline="98" begincolumn="47" endcolumn="60" rule="UselessParentheses" ruleset="Unnecessary" package="com.demo.utilities" class="PropertyLoader" method="loadProperties" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+<file name="/home/ec2-user/DevOpsClassCodes/src/main/java/com/demo/utilities/StringUtilities.java">
+<violation beginline="66" endline="66" begincolumn="37" endcolumn="39" rule="UnusedPrivateField" ruleset="Unused Code" package="com.demo.utilities" class="StringUtilities" variable="LOG" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unusedcode.html#UnusedPrivateField" priority="3">
+Avoid unused private fields such as 'LOG'.
+</violation>
+<violation beginline="136" endline="136" begincolumn="22" endcolumn="34" rule="UselessParentheses" ruleset="Unnecessary" package="com.demo.utilities" class="StringUtilities" method="convert" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="183" endline="183" begincolumn="31" endcolumn="71" rule="UselessParentheses" ruleset="Unnecessary" package="com.demo.utilities" class="StringUtilities" method="convertStringToDate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+<violation beginline="184" endline="184" begincolumn="34" endcolumn="74" rule="UselessParentheses" ruleset="Unnecessary" package="com.demo.utilities" class="StringUtilities" method="convertStringToDate" externalInfoUrl="http://pmd.sourceforge.net/pmd-5.1.2/rules/java/unnecessary.html#UselessParentheses" priority="4">
+Useless parentheses.
+</violation>
+</file>
+</pmd>
