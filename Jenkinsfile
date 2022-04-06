@@ -2,14 +2,12 @@ pipeline {
     agent any
     tools {
         maven 'maven' 
-    }
-
-    
-    
+    }  
     stages {
         stage('clone') {
             steps {
                 git url: 'https://github.com/Raghusadhu/mvn_pipeline.git'
+                sh 'echo hello'
             }
         }
         stage('compile') {
