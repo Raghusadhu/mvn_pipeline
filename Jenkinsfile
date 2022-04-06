@@ -7,7 +7,7 @@ pipeline {
         stage('clone') {
             steps {
                 git url: 'https://github.com/Raghusadhu/mvn_pipeline.git'
-                sh 'echo hello'
+                sh 'echo hello1'
             }
         }
         stage('compile') {
