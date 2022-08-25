@@ -26,11 +26,11 @@ pipeline {
                 sh 'mvn test'
             }
         }
-        stage('metric_check') {
-            steps{
-                sh 'mvn cobertura:cobertura -D cobertura.report.format=xml'
-            }
-        }
+ //       stage('metric_check') {
+   //         steps{
+     //           sh 'mvn cobertura:cobertura -D cobertura.report.format=xml'
+       //     }
+        //}
         stage('package') {
             steps{
                 sh 'mvn package'
